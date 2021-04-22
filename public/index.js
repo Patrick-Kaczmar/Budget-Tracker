@@ -144,6 +144,17 @@ function sendTransaction(isAdding) {
   });
 }
 
+let saveRecord = function(data) {
+  fetch("http://localhost:3000/api/transaction", {
+    method: "POST",
+    body: JSON.stringify(data),
+    headers: {
+      Accept: "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    }
+  })
+};
+
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
 };
