@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-
+This is a progressive web app for tracking your expenses and deposites and shows you your overall budget on a graph for a visual representaion of your spending. This app stores data in a mongo database using a mongoose schema, it is hosted on heroku using mongo atlas to connect the database. The offline functionality is possible through the use of the service worker using the local cache storage and indexedDB to store the network requests until the network is back online.
 
 ## Table of Contents
 * [Usage](#Usage)
@@ -12,9 +12,9 @@
 * [Questions](#Questions)
 
 ## Usage
+To use this app simply follow the heroku link below to access the website. Once on the site, enter the name of the transaction and the amount you will be depositing or withdrawing, then click the add funds or subtract funds button and the graph will update the total budget on the account.
 
-
-### Deployed application link - https://nameless-inlet-68704.herokuapp.com/
+### Deployed application link - https://boiling-refuge-26689.herokuapp.com/
 
 ## Demonstration
 ![example-readme-demo]()
