@@ -17,7 +17,7 @@ To use this app simply follow the heroku link below to access the website. Once 
 ### Deployed application link - https://boiling-refuge-26689.herokuapp.com/
 
 ## Demonstration
-![example-readme-demo]()
+![example-readme-demo](public/dist/public/icons/budget-tracker.png)
 
 ## License
 MIT License - Copyright 2021 Patrick-Kaczmar
